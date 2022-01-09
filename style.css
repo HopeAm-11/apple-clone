@@ -92,9 +92,8 @@ li {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    cursor: pointer;
 }
-
-
 
 button {
     cursor: pointer;
@@ -103,7 +102,6 @@ button {
 /*end reset*/
 
 .page_grid {
-    border: 1px solid red;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -112,7 +110,6 @@ button {
 }
 
 .page__header {
-    border: 1px solid blue;
     width: 1440px;
     height: 538px;
     grid-column: 2/3;
@@ -132,17 +129,15 @@ button {
 
 .hero_item_container {
     width: 100%;
-    border: 1px solid red;
     flex-direction: column;
-    justify-content: space-around;
-    height: 410px;
+    justify-content: space-between;
+    height: 400px;
 }
 
 
 
 .header__nav__inner {
     width: 58%;
-
 }
 
 .hero__item {
@@ -154,7 +149,7 @@ button {
 .header__nav {
     flex-direction: row;
     justify-content: center;
-    border: 1px solid rgb(0, 255, 55);
+    margin-top: 10px;
 }
 
 .input__container {
@@ -177,14 +172,11 @@ input {
     background: url('/images/search.png') 8px 78% / 15px 15px no-repeat;
     padding-left: 30px;
     outline: none;
-
-
 }
 
 /*images*/
 
 .img__container {
-    border: 1px solid red;
     grid-column: 2/3;
 }
 
@@ -216,15 +208,9 @@ input {
     height: 100px;
 }
 
-
 .line:hover {
     border-bottom: 1px solid white;
 
-}
-
-.test1:hover {
-    border-bottom: 1px solid yellow;
-    height: 30px;
 }
 
 .title_item_container {
@@ -250,8 +236,7 @@ input {
 }
 
 .header_title_section {
-    border: 1px solid red;
-    height: 250px;
+    height: 200px;
 }
 
 .head_nav_item {
@@ -262,27 +247,25 @@ input {
     border-bottom: 1px ridge rgba(0, 0, 0, 0.36);
 }
 
-
-
 .nav_item_1 {
-    background: url('/images/globalnav_text.svg') 50% -1% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
+    background: url('/images/globalnav_text.svg') 50% -0.5% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
     border-left: 1px ridge rgba(0, 0, 0, 0.36);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .nav_item_1:hover {
-    background: url('/images/globalnav_text.svg') 50% -1% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+    background: url('/images/globalnav_text.svg') 50% -0.5% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
 
 }
 
 .nav_item_2 {
-    background: url('/images/globalnav_text.svg') 50% 14% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
+    background: url('/images/globalnav_text.svg') 50% 13.5% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
     border-left: 1px ridge rgba(0, 0, 0, 0.36);
 }
 
 .nav_item_2:hover {
-    background: url('/images/globalnav_text.svg') 50% 14% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+    background: url('/images/globalnav_text.svg') 50% 13.5% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
 }
 
 .nav_item_3 {
@@ -305,21 +288,21 @@ input {
 
 
 .nav_item_5 {
-    background: url('/images/globalnav_text.svg') 50% 56.5% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
+    background: url('/images/globalnav_text.svg') 50% 57.5% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
     border-left: 1px solid rgba(0, 0, 0, 0.36);
 }
 
 .nav_item_5:hover {
-    background: url('/images/globalnav_text.svg') 50% 56.5% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+    background: url('/images/globalnav_text.svg') 50% 57.5% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
 }
 
 .nav_item_6 {
-    background: url('/images/globalnav_text.svg') 50% 70.5% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
+    background: url('/images/globalnav_text.svg') 50% 71.6% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
     border-left: 1px solid rgba(0, 0, 0, 0.36);
 }
 
 .nav_item_6:hover {
-    background: url('/images/globalnav_text.svg') 50% 70.5%no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+    background: url('/images/globalnav_text.svg') 50% 71.6%no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
 }
 
 .nav_item_7 {
@@ -328,16 +311,56 @@ input {
 }
 
 .nav_item_7:hover {
-    background: url('/images/globalnav_text.svg') 50% 99.5% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+    background: url('/images/globalnav_text.svg') 50% 86.5% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
 }
 
 .nav_item_8 {
-    background: url('/images/globalnav_text.svg') 50% 100.5% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
+    background: url('/images/globalnav_text.svg') 50% 101% no-repeat, linear-gradient(to bottom, rgba(126, 126, 126, 1) 0%, rgba(98, 98, 98, 1) 51%, rgba(126, 126, 126, 1) 51%, rgba(126, 126, 126, 1) 100%);
     border-left: 1px solid rgba(0, 0, 0, 0.36);
     border-right: 1px solid rgba(0, 0, 0, 0.36);
-
 }
 
 .nav_item_8:hover {
-    background: url('/images/globalnav_text.svg') 50% 98.9% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+    background: url('/images/globalnav_text.svg') 50% 101% no-repeat, linear-gradient(to bottom, rgb(71, 71, 71) 0%, rgb(58, 58, 58) 51%, rgb(65, 65, 65) 51%, rgb(73, 73, 73) 100%);
+}
+
+/*footer section*/
+.page__footer {
+    grid-column: 2/3;
+    justify-content: space-evenly;
+    align-self: center;
+    color: #6e6e6e;
+    font-size: .7em;
+}
+
+.footer_link {
+    color: #08c;
+    border-right: 1px solid #9e9c9c;
+    padding: 0px 0.5rem;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    color: #08c;
+}
+
+.footer__item1 {
+    height: 2.5rem;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.icon_footer {
+    background: url('/images/usa.png') 10% 50% no-repeat;
+    padding: 12px;
+    border: none;
+}
+
+.theme_blue {
+    color: #08c;
+    cursor: pointer;
+}
+
+.theme_blue:hover {
+    text-decoration: underline;
 }
